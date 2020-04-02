@@ -1,0 +1,64 @@
+ 
+
+
+ * {
+     padding: 0;
+     margin: 0;
+ }
+
+
+
+
+    @media (max-width: 800px){
+
+      .container {
+          width: 100vw;
+          height: 100vh;
+          background: #fff;
+          position: absolute;
+          z-index: 1;
+      }
+
+      .container > article {
+          width: 80%;
+          height: 70%;
+          background: #fff;
+          position: absolute;
+          left: 10%;
+          top: 15%;
+          border-radius: 5px;
+         box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
+      }
+
+      .container > footer {
+          width: 100vw;
+          height: 5vh;
+          position: absolute;
+          bottom: 0;
+          line-height: 5vh;
+      }
+      .container > footer > button {
+          float: right;
+          margin-right: 10vw;
+          background: none;
+          
+          border: none;
+      }
+     
+     
+     .info-div {
+         width: 80%;
+         height: 50vh;
+         left: 10%;
+         top: 10vh;
+         position: absolute;
+         z-index: 5;
+         box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
+         border-radius: 10px;
+         background: #fff;
+         display: none;
+         transition: .4s;
+         opacity: 0;
+     }
+
+    }
